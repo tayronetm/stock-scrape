@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "json-server": "^0.16.1",
+    "postman-request": "^2.88.1-postman.20",
     "puppeteer": "^2.1.1"
   }
 }
