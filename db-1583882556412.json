@@ -1,0 +1,34 @@
+{
+  "stocks": [
+    {
+      "name": "Ethereum",
+      "price": "200.945",
+      "last": "1583882531587",
+      "id": 1
+    },
+    {
+      "name": "True USD",
+      "price": "0.999900",
+      "last": "1583882531588",
+      "id": 2
+    },
+    {
+      "name": "Bitcoin Cash",
+      "price": "271.777",
+      "last": "1583882531588",
+      "id": 3
+    },
+    {
+      "name": "Ripple",
+      "price": "0.212010",
+      "last": "1583882531588",
+      "id": 4
+    },
+    {
+      "name": "Bitcoin Cash",
+      "price": "273.001",
+      "last": "1583881741518",
+      "id": 5
+    }
+  ]
+}

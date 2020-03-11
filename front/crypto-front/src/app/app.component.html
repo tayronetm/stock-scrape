@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <p [ngClass]="(verifyStock())?'red':'blue'">BITCOIN : {{ currentValue }}</p> -->
+<div>
+  <ul *ngFor="let item of stocks">
+    <li [ngClass]="(verifyStock())?'red':'blue'">{{ item.name }}: {{ item.price }}</li>
+  </ul>
+
+</div>

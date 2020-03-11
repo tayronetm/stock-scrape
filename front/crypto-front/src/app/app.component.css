@@ -1,0 +1,47 @@
+.red {
+  background-color: rgb(246, 6, 6);
+  animation: mymove-red 1s;
+}
+@keyframes mymove-red {
+  25% {
+    background-color: #ffffff;
+  }
+}
+.blue {
+  background-color: rgb(6, 112, 241);
+  animation: mymove-blue 1s;
+}
+@keyframes mymove-blue {
+  25% {
+    background-color: #ffffff;
+  }
+}
+
+ul {list-style-type: none;}
+
+/* .blink-green {
+  width: 100px;
+  height: 100px;
+  background: rgb(251, 251, 251);
+  position: relative;
+  animation: mymove 1s;
+  animation-iteration-count: 4;
+
+}
+@keyframes mymove {
+    0%		{ background-color: #f3ebeb;}
+  25%	  { background-color: #3ffd05;}
+}
+
+.blink-red {
+  width: 100px;
+  height: 100px;
+  background: rgb(249, 250, 249);
+  position: relative;
+  animation: mymove 1s;
+  animation-iteration-count: 4;
+}
+@keyframes mymove {
+    0%		{ background-color: #f7fcf8;}
+  25%	  { background-color: #f3250a;}
+} */

@@ -10,16 +10,22 @@ setInterval(() => {
       console.log(JSON.parse(c).result, `*******Resultado - ${results}********`);
       isLoading = false;
       JSON.parse(c).result.rows.map((res, indice) => {
-        request.post('http://localhost:3000/stocks').form(
+        console.log(indice+1)
+        // request.post(`http://localhost:3000/stocks/${indice}`).form(
+        //   {
+        //     "name": res.name,
+        //     "price": res.price,
+        //     "last": Date.now()
+        //   }
+        // )
+        request.put(`http://localhost:9000/stocks/${indice+1}`).form(
           {
             "name": res.name,
             "price": res.price,
             "last": Date.now()
           }
         )
-        console.log(`Deletando indice ${indice}`)
-        request.del(`http://localhost:3000/stocks/1`).form({})
       })
     });
   }
-}, 5000);
+}, 10000);
